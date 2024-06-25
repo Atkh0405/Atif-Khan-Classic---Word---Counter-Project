@@ -1,0 +1,22 @@
+{
+  "name": "atkh0405-atif-khan-classic---word---counter-project",
+  "version": "1.0.0",
+  "description": "This is a CLI based Word Counter Project",
+  "main": "index.js",
+  "type": "module",
+  "bin":"index.js",
+  "publishConfig": {"access" :"public"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Atif Ullah Khan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
